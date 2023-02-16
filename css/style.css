@@ -12,8 +12,12 @@ h1{
 }
 h2{
     font-family: "Times New Roman";
-    font-size: 48px;
+    font-size: 64px;
     font-style: italic;
+}
+h3{
+    font-family: "Times New Roman";
+    font-size: 36px;
 }
 div p{
     font-family: Arial;
@@ -25,15 +29,36 @@ img{
     margin: 5px 10px 20px 15px;
     border: solid aquamarine 10px;
 }
-li.navigation{
+img:hover{
+    box-shadow: 10px 10px;
+}
+.navigation_ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: mediumaquamarine;
+}
+.navigation{
     display: inline-block;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
 }
-head{
-
+.navigation a{
+    color: black;
+    text-decoration: none;
 }
-footer{
-
+.active_navigation{
+    display: inline-block;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
 }
-.thanks{
-
+.active_navigation a{
+    color: black;
+    text-decoration: none;
 }
